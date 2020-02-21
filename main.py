@@ -20,6 +20,8 @@ screen = pygame.display.set_mode((800, 600))
 screen.fill((255, 255, 255))
 
 
+
+
 class Dino(pygame.sprite.Sprite):
     image_jump = load_image("Dino.png", -1)
     image1 = load_image("Dino1.png", -1)
